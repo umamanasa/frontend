@@ -17,3 +17,11 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
 
+resources:
+  limits:
+    cpu: 5000m
+    memory: 500Mi
+  requests:
+    cpu: 500m
+    memory: 500Mi
+
